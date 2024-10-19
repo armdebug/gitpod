@@ -1,2 +1,2 @@
 tasks:
-    - command: echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+    - command: echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
