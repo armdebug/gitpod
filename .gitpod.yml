@@ -1,2 +1,3 @@
 tasks:
-    - command: echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
+    - command: git config --global user.name $USER_NAME
+    - command: git config --global user.email $USER_EMAIL
